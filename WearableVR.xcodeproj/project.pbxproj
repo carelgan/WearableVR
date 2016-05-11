@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					A4037E071CE2F08E0055853F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SQM7259KCT;
 					};
 					A4037E201CE2F08E0055853F = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -413,10 +414,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WearableVR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Toyama.WearableVR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +429,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WearableVR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Toyama.WearableVR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -496,6 +505,7 @@
 				A4037E371CE2F08E0055853F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4037E381CE2F08E0055853F /* Build configuration list for PBXNativeTarget "WearableVRTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +514,7 @@
 				A4037E3A1CE2F08E0055853F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4037E3B1CE2F08E0055853F /* Build configuration list for PBXNativeTarget "WearableVRUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +523,7 @@
 				A4037E3D1CE2F08E0055853F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
